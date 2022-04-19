@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddIncome</title>
+    <link rel="stylesheet" href="styleExpenseAndIncome.css">
+</head>
+
+<body>
+    <h1> DODAJ<br>PRZYCHÓD</h1>
+    <div id="window">
+        <div>
+            <label for="income" id="value">KWOTA</label>
+            <input type="text" id="income" name="income" placeholder="kwota" required>
+        </div>
+
+        <div id="data">
+            <label for="date" id="dat">DATA</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <p></p>
+        <div>KATEGORIA<br>
+            <span>
+                <input type="radio" id="renumeration" name="category" value="renumeration" checked>
+                <label for="renumeration" id="a">Wynagrodzenie</label>
+            </span>
+            <span>
+                <input type="radio" id="interest" name="category" value="interest">
+                <label for="interest" id="b">Odsetki bankowe</label>
+            </span>
+            <br>
+            <span>
+                <input type="radio" id="allegro" name="category" value="allegro">
+                <label for="allegro" id="c">Sprzedaż na allegro</label>
+            </span>
+            <span>
+                <input type="radio" id="other" name="category" value="other">
+                <label for="other" id="d">Inne</label>
+            </span>
+        </div>
+        <div>KOMENTARZ(OPCJONALNIE)<br>
+            <textarea id="comment" name="comment" rows="8" cols="60">
+                    </textarea>
+        </div>
+        <div>
+            <form action="MainMenu.html">
+                <button>Anuluj</button>
+            </form>
+            <form action="/blabla">
+                <button>Dalej</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

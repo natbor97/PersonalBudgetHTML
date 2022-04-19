@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://cdn.galleries.smcloud.net/t/galleries/gf-QF46-mMw2-4r1j_sennik-pieniadze-co-oznacza-sen-liczyc-pieniadze-znalezc-pieniadze-wygrac-pieniadze-co-oznaczaja-te-sny-1920x1080-nocrop.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(34, 17, 188);
+    font-size: 80px;
+    text-shadow: 5px 5px 2px rgb(7, 3, 26);
+    font-family: fantasy;
+    line-height: 80px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+#window {
+    background-image: url(https://us.123rf.com/450wm/hakkiarslan/hakkiarslan1601/hakkiarslan160100009/50907760-streszczenie-szare-t%C5%82o-bia%C5%82e-geometryczne.jpg?ver=6);
+    border: 2px solid black;
+    height: 410px;
+    width: 500px;
+}
+
+button {
+    background-color: white;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    color: black;
+    padding: 5px 5px;
+    border: 2px solid;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+div {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 5px -2px 5px white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+input {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 18px;
+}
+
+#a,
+#b,
+#c,
+#d {
+    margin-top: 1px;
+    margin-left: 1px;
+    font-family: 'Arial';
+    font-size: 12px;
+}
+
+button:hover {
+    border-color: rgb(34, 17, 188);
+    color: rgb(34, 17, 188);
+    transform: translateY(2px) scale(1.1);
+}
+
+form {
+    display: inline;
+}
