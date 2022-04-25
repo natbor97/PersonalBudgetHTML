@@ -4,43 +4,26 @@ body{
 
 h1 {
     color: rgb(49, 20, 211);
-    text-align: center;
-    font-size: 70px;
+    font-size: 10vh;
     text-shadow: 10px 10px 10px black;
     font-family: fantasy;
-    line-height: 70px;
-    letter-spacing: 30px;
+    letter-spacing: 2vw;
 }
 
-h1:hover {
-    transform: scale(1.25);
-}
-
-select:hover {
-    transform: scale(1.02);
-}
-
-section{
+#table1, #table2, #table3{
     border: 2px solid black;
     background-image: url(https://www.decormint.com/storage/thumbs/fotolia/141427277/thumbnw_b38a3aba7098d76b19500080cdfa9b05.jpg);
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 td {
-    text-align: center;
-    height: 25px;
     border: 1px solid black;
 }
 
 th {
-    height: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .subtraction td {
@@ -50,47 +33,7 @@ th {
 }
 
 button {
-    background-color: white;
-    font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
-    color: black;
-    padding: 5px 5px;
     border: 2px solid;
-    margin-top: 5px;
 }
-
-button:hover {
-    border-color: rgb(16, 10, 99);
-    color: blue;
-    transform: translateY(2px) scale(1.1);
-}
-
-select {
-    height: 50px;
-    width: 200px;
-    text-align: right;
-    font-size: 20px;
-    font-weight: bolder;
-    border: 2px solid black;
-}
-
-div, form{
-    display: flex;
-    justify-content: flex-end;
-}
-
-#tabels{
-    display:flex;
-    flex-direction: row;
-    justify-content:center; 
-    align-items: flex-start;
-}
-
-h2{
-    width: 250px;
-    text-align: center;
-    height: 100px;
-    margin-top:25px;
-}
-

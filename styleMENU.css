@@ -1,51 +1,18 @@
 body {
     background-image: url(https://cdn.galleries.smcloud.net/t/galleries/gf-QF46-mMw2-4r1j_sennik-pieniadze-co-oznacza-sen-liczyc-pieniadze-znalezc-pieniadze-wygrac-pieniadze-co-oznaczaja-te-sny-1920x1080-nocrop.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 h1 {
     color: rgb(34, 17, 188);
-    text-align: center;
-    font-size: 80px;
     text-shadow: 5px 5px 2px rgb(7, 3, 26);
     font-family: fantasy;
-    line-height: 100px;
-    letter-spacing: 20px;
-}
-
-h1:hover {
-    transform: scale(1.25);
+    letter-spacing: 0.2em;
+    font-size:10vh
 }
 
 button {
-    background-color: white;
-    font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
-    color: black;
-    padding: 10px 10px;
     border: 2px solid;
-}
-
-div {
-    margin-bottom: 10px;
-}
-
-button:hover {
-    border-color: rgb(34, 17, 188);
-    color: rgb(34, 17, 188);
-    transform: translateY(2px) scale(1.1);
-}
-
-#logout:hover {
-    border-color: rgb(243, 9, 9);
-    color: rgb(255, 1, 1);
-    transform: translateY(2px) scale(1.1);
-}
-
-#logout {
-    margin-top: 30px;
+    font-size: 4vh;
 }

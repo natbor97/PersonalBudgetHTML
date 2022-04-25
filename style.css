@@ -4,76 +4,26 @@ body{
 
 h1 {
   color: rgb(49, 20, 211);
-  text-align: center;
-  font-size: 70px;
   text-shadow: 10px 10px 10px black;
   font-family: fantasy;
-  line-height: 70px;
-  letter-spacing: 30px;
-}
-
-h1:hover {
-  transform: scale(1.25);
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  letter-spacing: 2vw;
+  font-size:8vw;
 }
 
 h2 {
-  text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 2px;
   text-shadow: 5px -5px 5px white;
-  margin:10px;
+  font-size:5vh;
 }
 
 label {
   font-weight: bold;
-  margin-right: 5px;
 }
 
 button {
-  background-color: white;
-  font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 2px;
-  color: black;
   padding: 5px 5px;
   border: 2px solid;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-button:hover {
-  border-color: rgb(16, 10, 99);
-  color: blue;
-  transform: translateY(2px) scale(1.1);
-}
-
-input {
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  height: 20px;
-  width: 200px;
-}
-
-div {
-  background-image: url(https://afe.pl/media/products/dcaa1d244fdc7e2064643b2f2f547907/images/thumbnail/large_szare2.png?lm=1560505296);
-  line-height: 25px;
-  box-sizing:content-box;
-  text-align: center;
-  border: 2px solid rgb(1, 1, 11);
-  border-radius: 2em;
-  padding: 1px 5px 5px 5px;
-  width: 350px;
-  margin-top:1em;
-}
-
-p{
-  margin:1px;
 }
